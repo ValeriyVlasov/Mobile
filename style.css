@@ -1,0 +1,197 @@
+a {
+  text-decoration: none;
+}
+.wraper {
+  width: 100%;
+  height: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  width: 1020px;
+  height: 95px;
+  background: #2d303a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 6px solid #323746;
+  padding-left: 42px;
+  padding-right: 38px;
+}
+.logotip {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.logotip span {
+  color: red;
+}
+.header__navigation {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.header__link {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+}
+.header__link:hover {
+  color: red;
+  transition: 0.2s;
+}
+.dot {
+  width: 2px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  width: 1020px;
+  height: 600px;
+  background: #f06c64;
+}
+.arrow__left {
+  padding-left: 40px;
+}
+.arrow__right {
+  padding-right: 40px;
+}
+.Services {
+  width: 1020px;
+  height: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 59px;
+  background: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+.Services h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 18px;
+  color: #666d89;
+}
+.Services p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+}
+.elements-container {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.element-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 300px;
+}
+.element-box img {
+  width: 60px;
+  height: 60px;
+}
+.element-box h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+}
+.element-box p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 7px;
+  color: #767e9e;
+}
+.Portfolio {
+  width: 1020px;
+  height: 870px;
+  padding-top: 59px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: #2d303a;
+  border-bottom: 6px solid #323746;
+}
+.Portfolio h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #666d89;
+}
+.Portfolio p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 20px;
+  color: #767e9e;
+}
+.Portfolio-nav {
+  gap: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+.button-elem button {
+  border-radius: 5px;
+  border: 1px solid #767e9e;
+  color: #767e9e;
+  background: none;
+}
+.Portfolio-nav :hover {
+  color: #f06c64;
+  border-color: #f06c64;
+  transition: 0.2s;
+}
+.Portfolio-box {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+  margin-top: 20px;
+}
+.Social {
+  width: 1020px;
+  height: 76px;
+  background: #2d303a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.Social-righ {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
